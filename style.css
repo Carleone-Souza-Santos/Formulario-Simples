@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html,body{
+height:100%;
+}
+
+form{
+    width: 96%;
+    max-width:600px ;
+    margin:30px auto;
+    text-align: center;
+}
+
+form fieldset {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    padding: 20px  40px;
+    border: 3px solid;
+
+}
+
+form legend{
+   text-align:left; 
+   color: rgb(172, 38, 38);
+}
+
+form input[type=text]{
+display:inline-block;
+margin-top: 30px;
+width: 80%;
+padding: 10px 30px;
+color: rgb(38, 69, 172);
+}
+
+form input[type=text]:focus,form textarea:focus{
+    outline: 0;  
+}
+
+
+form h2{
+  margin-top: 20px;
+  color: rgb(139, 69, 69);
+}
+
+.input{
+    display:inline-block;
+    text-align: left;
+    margin-top: 20px;
+    
+}
+
+.input span{
+margin-left: 13px;
+font-size: 16px;
+color:rgb(139, 69, 69);
+
+}
+
+form input[type=submit]{
+margin-top:30px ;
+border:2px solid black;
+width:140px ;
+height:40px;
+font-size: 16px;
+color:(100,100,100);
+background-color:rgb(140,140,140);
+cursor: pointer;
+
+}
+
+form textarea {
+    border: 1px solid rgb(83, 14, 194);
+    color: rgb(38, 69, 172);
+    margin-top: 30px;
+    width: 400px;
+    height: 140px;
+    padding: 10px 13px;
+    resize: none;
+}
+
+legend{
+font-size:22px;
+color: black;
+
+}
